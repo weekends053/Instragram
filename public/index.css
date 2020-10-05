@@ -1,0 +1,103 @@
+
+:root{
+  --base: #eeedf1;
+  --spacing: 2px;
+  --blur: 5px;
+ 
+  
+
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    padding: 2rem 5rem;
+    margin: 5%;
+    background-color: lightblue;
+    background-image: url("https://www.slashgear.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg");
+    color: #FFFFFF;
+    
+
+}
+
+h1{
+    color: #FFFFFF;
+    font-family: cursive;
+    font-size: 60px;
+    
+}
+.a input{
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+
+    width: 50%;
+    height: 50px;
+
+    padding: 20px;
+    margin-bottom: 42px;
+
+    font-size: 20px;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+.img {
+    border-radius: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(88, 97, 105);
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 50px;
+    cursor: pointer;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    
+  }
+
+  img:hover {
+    width: 450px;
+     height:  350px;
+     border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    position: relative;
+    border: 5px solid rgb(65, 142, 209);
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 50px;
+    cursor: pointer;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+  
+
+.SIvCob {
+  display: inline-block;
+  line-height: 28px;
+  
+}
+
+
+
+
+
+
+
